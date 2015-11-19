@@ -1,4 +1,23 @@
 {
+	"name": "morningtrain/envato-api",
+    "type": "library",
+    "description": "A complete native php wrapper for the Envato API",
+    "keywords": ["envato","api", "php"],
+    "homepage": "http://morningtrain.dk/",
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Mohamed Bouallegue",
+            "email": "mohamed.bouallegue.tn@gmail.com",
+            "homepage": "https://github.com/MohamedBoualleg",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MorningTrain\\EnvatoApi\\": "src/"
+        }
+    },
     "require": {
         "guzzlehttp/guzzle": "^6.0"
     }

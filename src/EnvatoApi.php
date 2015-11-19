@@ -1,4 +1,6 @@
 <?php
+namespace MorningTrain\EnvatoApi;
+
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 
