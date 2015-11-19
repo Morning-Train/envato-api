@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 require 'envato/EnvatoApi.php';
 
-define('ENVATO_TOKEN', '2veXlqqGpPEkmbYsxX4cdDrxlbCJA89R');
+define('ENVATO_TOKEN', 'YOUR-ENVATO-API-TOKEN');
 
 $envatoClient = new EnvatoApi(ENVATO_TOKEN);
 
