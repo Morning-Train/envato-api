@@ -2,7 +2,7 @@
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 
-class EvantoApi{
+class EnvatoApi{
 
 	protected $api_token = '';
 	
