@@ -18,7 +18,7 @@ class EnvatoApi{
 	}
 
 
-	private function GET($endpoint, $query = []){
+	protected function GET($endpoint, $query = []){
 		try {
 			$response = $this->client->request('GET', $endpoint,[
 				'query' => $query,
@@ -37,7 +37,7 @@ class EnvatoApi{
 		}
 	}
 
-	private function checkResponse($response) {
+	protected function checkResponse($response) {
 		$success = [200, 201];
 		$statusCode = $response->getStatusCode();
 		if(in_array($statusCode, $success)) {
