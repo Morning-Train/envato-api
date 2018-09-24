@@ -171,7 +171,7 @@ class EnvatoApi{
 	 * @return string  json containing gategories list
 	 */
 	public function getCategories ($site) {
-		return $this->GET('v1/market/categories'.$site.'.json');
+		return $this->GET('v1/market/categories:'.$site.'.json');
 	}
 
 	/**
