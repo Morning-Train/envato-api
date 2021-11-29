@@ -4,7 +4,7 @@
     "description": "A complete native php wrapper for the Envato API",
     "keywords": ["envato","api", "php"],
     "homepage": "http://morningtrain.dk/",
-    "license": "GNU General Public License v3.0",
+    "license": "GNU General Public License v3.0 only",
     "authors": [
         {
             "name": "Mohamed Bouallegue",
